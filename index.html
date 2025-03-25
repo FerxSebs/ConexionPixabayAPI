@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Imagenes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Delius&family=Delius+Swash+Caps&family=Knewave&family=Pacifico&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link href="css/styless.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>PIXABAY</h1>
+            <form id="formulario" class="mt-10" action="#" method="POST">
+                <div class="container-busqueda mt-5">
+                    <input 
+                        type="text" 
+                        name="buscador"
+                        id="buscador"
+                        placeholder="¿Qué deseas buscar hoy?"
+                        class="p-2 rounded"
+                    />
+                    <input 
+                        type="submit"
+                        class="bg-gray-500 p-3 uppercase font-bold cursor-pointer rounded"
+                        value="Buscar">
+                </div>
+            </form>
+        </div>
+        <div id="resultado" class="mt-5"></div>
+    </div>
+    <div id="mensaje-error" class="mt-5"></div> 
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+
+body {
+  display: flex; /* Usar flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: flex-start; /* Alinear en la parte superior */
+  margin: 20px; /* Eliminar márgenes por defecto */
+  background: url("https://marketplace.canva.com/EAGQps7_4I8/1/0/1600w/canva-fondo-de-pantalla-burbujas-con-degradado-wja-Jc25ETs.jpg");
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  background-attachment: fixed; /* Mantiene la imagen de fondo fija */
+  background-position: center; /* Centra la imagen de fondo */
+}
+.container {
+  width: 800px;
+  align-items: start;
+  margin: auto;
+  background:transparent;
+  opacity: 0.9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.mt-5 {
+  padding: 10px;
+}
+header {
+  margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+.delius-regular {
+  font-family: "Delius", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Delius", serif;
+  font-size: 100px;
+  color: #000;
+  text-shadow: 7px 10px 5px rgb(110, 109, 109);
+  margin: 0; /* Asegúrate de que no haya margen */
+  text-align: center;
+}
+p {
+  font-family: "Delius", serif;
+  font-size: 60px;
+  color: #000;
+  text-shadow: 8px 10px 5px rgb(110, 109, 109);
+  margin: 0; /* Asegúrate de que no haya margen */
+  text-align: center;
+}
+.container-busqueda {
+  display: flex; /* Usar flexbox para alinear horizontalmente */
+  align-items: center; /* Alinear verticalmente al centro */
+}
+
+.container-busqueda input[type="text"] {
+  
+  font-family: "Delius", serif;
+  font-size: large;
+  font-size: 15px;
+  flex: 1; /* Hacer que el input ocupe el espacio disponible */
+  margin-right: 10px; /* Espacio entre el input y el botón */
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+.container-busqueda input[type="submit"] {
+  font-family: "Delius", serif;
+  font-size: large;
+  background-color: #4CAF60; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  padding: 10px 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+.container-busqueda input[type="submit"]:hover {
+  background-color: #45a000; /* Color de fondo al pasar el mouse */
+}
+.img-container {
+  background-color: antiquewhite;
+  box-shadow: 10px 5px 5px rgb(110, 109, 109);
+  display: inline-block; /* Para que los divs se alineen horizontalmente */
+  margin: 10px; /* Espaciado entre imágenes */
+  border: 1px solid #ccc; /* Borde opcional */
+  border-radius: 8px; 
+  overflow: hidden; /* Para que no se desborde el contenido */
+}
+
+.img-container img {
+  padding: 10px;
+  width: 200px; /* Ajustar al ancho del contenedor */
+  height: 300px; /* Mantener la proporción de la imagen */
+}
